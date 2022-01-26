@@ -5,9 +5,80 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  background-color: #659DBD;
+}
+
+.App {
+  background-color: #2F66A9;
 }
 
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
+}
+
+#navbar {
+  background-color: #B22222;
+  position: fixed;
+  height: 60px;
+  width: 100%;
+  /* display: flex;
+  justify-content: space-between;
+  text-align: center; */
+  z-index: 1030;
+}
+
+.navbar-brand {
+  position: fixed;
+  height: 80px;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  text-align: center;
+  z-index: 1030;
+}
+
+li {
+  margin: auto;
+}
+
+.test {
+  height: 900px;
+}
+
+#top{
+  position: relative;
+  top: 48px;
+}
+
+.nav-links {
+  font-weight: 800;
+  margin-top: 7px;
+}
+
+a {
+  /* padding: 20px; */
+  margin: 10px;
+}
+
+.a-tags {
+  text-decoration: none;
+  vertical-align: middle;
+  color: white;
+}
+
+.padding-section{
+  height: 90px;
+}
+
+#profile-pic {
+  position: relative;
+  /* top: 50px; */
+  border-radius: 40%;
+  /* box-shadow: 12px 12px 2px 1px rgba(0, 0, 255, .2); */
+}
+
+#portfolio {
+  position: relative;
+  top: 48px;
 }
