@@ -77,7 +77,7 @@ function App() {
           </Modal.Header>
           <Modal.Body>
             <img src="https://imgur.com/jNmX2Ns.png" alt="book-app-screenshot" />
-            <p className='portfolio-descriptions'>People that like to read often don't know what to read next. I have created an app that will give random suggestions based on genre. On my app I have included sections where the user can log books that they have read or books that they want to read. I also included a section for people to write thoughts that they might have about an author or a book. Others can upvote or downvote the comments as they please.</p>
+            <p className='portfolio-descriptions'>People that like to read often don't know what to read next. Using React and data supplied by the Google Books API, I have created an app that will give random suggestions based on genre. On my app I have included sections where the user can log books that they have read or books that they want to read. I also included a section for people to write thoughts that they might have about an author or a book. Others can upvote or downvote the comments as they please.</p>
           </Modal.Body>
           <Modal.Footer>
           <Nav>
@@ -93,7 +93,8 @@ function App() {
             <Modal.Title>LIBRARY DATABASE</Modal.Title>
           </Modal.Header>
           <Modal.Body>
-            <p>Modal body text goes here</p>
+            <img id="library-database-image" src="https://imgur.com/tYamvbC.png" alt="library-database-screenshot" />
+            <p className='portfolio-descriptions'>Working with a team, we created a database that could be utilized by a library. Be sure and click on the books! The page goes to the "User" side, or the side that would be used by library patrons, but if you click "Administrative" at the top you can check out the features meant for administrations. Here the user can add, edit, or delete books as they see fit. This app was created using React and MongoDB.</p>
           </Modal.Body>
           <Modal.Footer>
           <Nav>
@@ -108,11 +109,10 @@ function App() {
           <Modal.Header closeButton>
             <Modal.Title>SUPERHERO DATABASE</Modal.Title>
           </Modal.Header>
-
           <Modal.Body>
-            <p>Modal body text goes here</p>
+            <img id="superhero-database-image" src="https://imgur.com/o6vzGxc.png" alt='superhero-database-screenshot' />
+            <p className='portfolio-descriptions'>This superhero database is a full stack application with the front end created using React, and Django for the backend. Users can choose to look at either superheroes or supervillains and add, create, edit, or delete as they please. Be sure to click on the superhero or supervillain for more details!</p>
           </Modal.Body>
-
           <Modal.Footer>
           <Nav>
             <Nav.Item>
@@ -125,13 +125,46 @@ function App() {
       <div id="about">
         <div className="padding-section"></div>
         <p className='titles'>ABOUT</p>
+        {/* <div className='lead'> */}
+        <p className="about-me">
+          I am a nerdy, fun, thoughtful guy from North Dakota. What I am 
+          best at is tackling problems analytically. I am determined to find 
+          a solution and am not satisfied until I do. I studies at General Assembly
+          for 14 weeks where I worked on projects alone and with a small team
+          of my classmates. I look forward to seeing what I can do with programming!
+        </p>
+        <div>
+          <em><p id="technical-skills-title">Technical Skills</p></em>
+        </div>
+        <div>
+          <ul className="technical-skills">
+            <li>HTML</li>
+            <li>CSS</li>
+            <li>JavaScript</li>
+            <li>React</li>
+            <li>MongoDB</li>
+            <li>Express</li>
+            <li>Node</li>
+            <li>SQL</li>
+            <li>PostgreSQL</li>
+            <li>Python</li>
+            <li>Django</li>
+          </ul>
+        </div>
       </div>
-      <div className='test'>
+      <div id='about-contact-divider'>
 
       </div>
       <div id="contact">
         <div className="padding-section"></div>
-        Contact
+        <p className='titles'>CONTACT</p>
+        <p>I love programming and would love to work with you! Reach out to me with any of the below links! Currently seeking employment opportunities as a junior developer.</p>
+        <h5>View my resume here: <a href="">Resume</a></h5>
+        <a class='btn btn-outline-dark btn-social mx-1' target="_blank" href="www.linkedin.com/in/scottmacleod1990">
+          <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-linkedin" viewBox="0 0 16 16">
+            <path d="M0 1.146C0 .513.526 0 1.175 0h13.65C15.474 0 16 .513 16 1.146v13.708c0 .633-.526 1.146-1.175 1.146H1.175C.526 16 0 15.487 0 14.854V1.146zm4.943 12.248V6.169H2.542v7.225h2.401zm-1.2-8.212c.837 0 1.358-.554 1.358-1.248-.015-.709-.52-1.248-1.342-1.248-.822 0-1.359.54-1.359 1.248 0 .694.521 1.248 1.327 1.248h.016zm4.908 8.212V9.359c0-.216.016-.432.08-.586.173-.431.568-.878 1.232-.878.869 0 1.216.662 1.216 1.634v3.865h2.401V9.25c0-2.22-1.184-3.252-2.764-3.252-1.274 0-1.845.7-2.165 1.193v.025h-.016a5.54 5.54 0 0 1 .016-.025V6.169h-2.4c.03.678 0 7.225 0 7.225h2.4z"/>
+          </svg>
+        </a>
       </div>
       <div className='test'>
 
