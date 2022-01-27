@@ -115,6 +115,21 @@ a {
 
 .portfolio-titles {
   position: relative;
-  top: 55px;
-  color: #323031;
+  top: 57px;
+  color: white;
+}
+
+.portfolio-titles-two-words {
+  position: relative;
+  top: 38px;
+  color: white;
+}
+
+#simpsons-card-game-image {
+  position: relative;
+  right: 75px;
+}
+
+.portfolio-descriptions {
+  margin-top: 30px;
 }
