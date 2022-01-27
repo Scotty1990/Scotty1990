@@ -68,17 +68,53 @@ a {
 }
 
 .padding-section{
-  height: 90px;
+  height: 115px;
 }
 
 #profile-pic {
   position: relative;
-  /* top: 50px; */
   border-radius: 40%;
-  /* box-shadow: 12px 12px 2px 1px rgba(0, 0, 255, .2); */
+}
+
+#name {
+  font-size: 30px;
+  font-weight: 900;
+  color: #323031;
+}
+
+#job-titles {
+  font-size: 20px;
+  font-weight: 700;
+  color: #323031;
+}
+
+.titles {
+  font-size: 25px;
+  font-weight: 800;
+  color: white;
 }
 
 #portfolio {
   position: relative;
   top: 48px;
+}
+
+#portfolio-grid {
+  display: grid;
+  grid-template-columns: repeat( auto-fit, minmax(250px, 1fr) );
+  gap: 1rem;
+}
+
+.portfolio-divs {
+  height: 150px;
+  width: 250px;
+  background-color: #B22222;
+  margin: auto;
+  border-radius: 20px;
+}
+
+.portfolio-titles {
+  position: relative;
+  top: 55px;
+  color: #323031;
 }
