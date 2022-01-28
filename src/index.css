@@ -100,6 +100,7 @@ a {
 }
 
 #portfolio-grid {
+  margin-top: 40px;
   display: grid;
   grid-template-columns: repeat( auto-fit, minmax(250px, 1fr) );
   gap: 1rem;
@@ -146,6 +147,10 @@ a {
   color: white;
 }
 
+#about-me {
+  margin-top: 40px;
+}
+
 #technical-skills-title {
   position: relative;
   left: 120px;
@@ -175,6 +180,10 @@ ul {
 
 .portfolio-descriptions {
   margin-top: 30px;
+}
+
+#contact-paragraph {
+  margin-top: 40px;
 }
 
 #resume-line {
