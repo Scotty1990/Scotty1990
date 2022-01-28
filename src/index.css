@@ -177,6 +177,10 @@ ul {
   margin-top: 30px;
 }
 
-.svg-contacts {
-  border-radius: 50%;
+#resume-line {
+  color: white;
+}
+
+#resume-tag {
+  color: white;
 }
