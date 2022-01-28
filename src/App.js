@@ -130,8 +130,8 @@ function App() {
         <p id='about-me' className="about-me">
           I am a nerdy, fun, thoughtful guy from North Dakota. What I am 
           best at is tackling problems analytically. I am determined to find 
-          a solution and am not satisfied until I do. I studies at General Assembly
-          for 14 weeks where I worked on projects alone and with a small team
+          a solution and am not satisfied until I do. I studied at General Assembly
+          for 14 weeks where I worked on projects both alone and with a small team
           of my classmates. I look forward to seeing what I can do with programming!
         </p>
         <div>
