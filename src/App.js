@@ -175,7 +175,7 @@ function App() {
           </svg>
         </a>
       </div>
-      <div id='bottom'><div></div></div>
+      <div id='bottom'></div>
     </div>
   );
 }
