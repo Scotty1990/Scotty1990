@@ -158,7 +158,6 @@ function App() {
         </div>
       </div>
       <div id='about-contact-divider'>
-
       </div>
       <div id="contact">
         <div className="padding-section"></div>
