@@ -19,7 +19,6 @@ function App() {
   const handleCloseSuperHeroDatabase = () => setShowSuperHeroDatabase(false)
   const handleShowSuperHeroDatabase = () => setShowSuperHeroDatabase(true)
 
-  // need to check if this will get it to update my website
   useEffect(() => {
     document.title = "Scott MacLeod"
   }, [])
