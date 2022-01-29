@@ -1,10 +1,9 @@
-import React, { useState } from 'react';
+import React, { useState, useEffect } from 'react';
 import './App.css';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import { Modal } from 'react-bootstrap';
 import { Nav } from 'react-bootstrap'
 import { Button } from 'react-bootstrap'
-import GithubSVG from './components/pics/Github-SVG.svg';
 
 function App() {
   const [showFlashCards, setShowFlashCards] = useState(false)
@@ -20,9 +19,15 @@ function App() {
   const handleCloseSuperHeroDatabase = () => setShowSuperHeroDatabase(false)
   const handleShowSuperHeroDatabase = () => setShowSuperHeroDatabase(true)
 
+  // need to check if this will get it to update my website
+  useEffect(() => {
+    document.title = "Scott MacLeod"
+  }, [])
+
   return (
     <div className="App">
       <header>
+      <title>This is a title</title>
         <div id="navbar" className='navbar-brand'>
           <p className='nav-links'><a className='a-tags' href="#top">SCOTT MACLEOD</a></p>
           <p className='nav-links'><a className='a-tags' href="#portfolio">PORTFOLIO</a></p>
@@ -126,7 +131,6 @@ function App() {
       <div id="about">
         <div className="padding-section"></div>
         <p className='titles'>ABOUT</p>
-        {/* <div className='lead'> */}
         <p id='about-me' className="about-me">
           I am a nerdy, fun, thoughtful guy from North Dakota. What I am 
           best at is tackling problems analytically. I am determined to find 
@@ -154,7 +158,6 @@ function App() {
         </div>
       </div>
       <div id='about-contact-divider'>
-
       </div>
       <div id="contact">
         <div className="padding-section"></div>
@@ -172,9 +175,7 @@ function App() {
           </svg>
         </a>
       </div>
-      <div className='test'>
-
-      </div>
+      <div id='bottom'><div></div></div>
     </div>
   );
 }
