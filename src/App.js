@@ -130,7 +130,6 @@ function App() {
       <div id="about">
         <div className="padding-section"></div>
         <p className='titles'>ABOUT</p>
-        {/* <div className='lead'> */}
         <p id='about-me' className="about-me">
           I am a nerdy, fun, thoughtful guy from North Dakota. What I am 
           best at is tackling problems analytically. I am determined to find 
@@ -158,7 +157,6 @@ function App() {
         </div>
       </div>
       <div id='about-contact-divider'>
-
       </div>
       <div id="contact">
         <div className="padding-section"></div>
