@@ -4,7 +4,6 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 import { Modal } from 'react-bootstrap';
 import { Nav } from 'react-bootstrap'
 import { Button } from 'react-bootstrap'
-import GithubSVG from './components/pics/Github-SVG.svg';
 
 function App() {
   const [showFlashCards, setShowFlashCards] = useState(false)
