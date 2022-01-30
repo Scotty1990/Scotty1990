@@ -22,7 +22,7 @@ function App() {
 
   useEffect(() => {
     document.title = "Scott MacLeod"
-  })
+  }, [])
 
   return (
     <div className="App">
