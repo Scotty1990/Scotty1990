@@ -1,4 +1,4 @@
-import React, { useState } from 'react';
+import React, { useState, useEffect } from 'react';
 import './App.css';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import { Modal } from 'react-bootstrap';
@@ -19,6 +19,10 @@ function App() {
   const handleCloseLibraryDatabase = () => setShowLibraryDatabase(false)
   const handleCloseSuperHeroDatabase = () => setShowSuperHeroDatabase(false)
   const handleShowSuperHeroDatabase = () => setShowSuperHeroDatabase(true)
+
+  useEffect(() => {
+    document.title = "Scott MacLeod"
+  }, [])
 
   return (
     <div className="App">
@@ -172,9 +176,7 @@ function App() {
           </svg>
         </a>
       </div>
-      <div className='test'>
-
-      </div>
+      <div id='bottom'></div>
     </div>
   );
 }
