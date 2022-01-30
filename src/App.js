@@ -1,4 +1,4 @@
-import React, { useState } from 'react';
+import React, { useState, useEffect } from 'react';
 import './App.css';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import { Modal } from 'react-bootstrap';
@@ -19,6 +19,10 @@ function App() {
   const handleCloseLibraryDatabase = () => setShowLibraryDatabase(false)
   const handleCloseSuperHeroDatabase = () => setShowSuperHeroDatabase(false)
   const handleShowSuperHeroDatabase = () => setShowSuperHeroDatabase(true)
+
+  useEffect(() => {
+    document.title = "Scott MacLeod"
+  })
 
   return (
     <div className="App">
@@ -130,8 +134,8 @@ function App() {
         <p id='about-me' className="about-me">
           I am a nerdy, fun, thoughtful guy from North Dakota. What I am 
           best at is tackling problems analytically. I am determined to find 
-          a solution and am not satisfied until I do. I studies at General Assembly
-          for 14 weeks where I worked on projects alone and with a small team
+          a solution and am not satisfied until I do. I studied at General Assembly
+          for 14 weeks where I worked on projects both alone and with a small team
           of my classmates. I look forward to seeing what I can do with programming!
         </p>
         <div>
@@ -159,7 +163,7 @@ function App() {
       <div id="contact">
         <div className="padding-section"></div>
         <p className='titles'>CONTACT</p>
-        <p id='contact-paragraph' className='about-me'>I love programming and would love to work with you! Reach out to me with any of the below links! Currently seeking employment opportunities as a junior developer.</p>
+        <p id='contact-paragraph' className='about-me'>I love programming and would love to work with you! Reach out to me with any of the below links! Currently seeking career opportunities as a junior developer.</p>
         <h5 id="resume-line">View my resume here: <a id='resume-tag' target="_blank" href="https://docs.google.com/document/d/18o3JiEmESxsq8K9UFpj5rSiEIjnPeBYE/edit?usp=sharing&ouid=110742230443125215815&rtpof=true&sd=true">Resume</a></h5>
         <a class='btn btn-outline-dark btn-social mx-1' target="_blank" href="www.linkedin.com/in/scottmacleod1990">
           <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-linkedin" viewBox="0 0 16 16">
@@ -172,9 +176,7 @@ function App() {
           </svg>
         </a>
       </div>
-      <div className='test'>
-
-      </div>
+      <div id='bottom'></div>
     </div>
   );
 }
